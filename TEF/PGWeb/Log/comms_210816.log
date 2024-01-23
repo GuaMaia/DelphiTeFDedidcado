@@ -1,0 +1,272 @@
+10:25:41:277 [PGWebLib.c] PW_Init(): Ultima limpeza: 29/07/2021 15:12:44)
+10:25:45:005 [PGWebLib.c] PW_Init(D:\Projetos\ProjetosNovos\trunk\Tef_Dedicado\TEF\PGWeb) <0>
+10:25:45:005 Limpeza de logs efetuada ***************************************************
+10:25:45:801 [PGWebLib] PP_Treatment Selecionado: [0x41]
+10:25:45:801 [PGWebLib.c] PW_iNewTransac(0xFC, 0004.0001.0004.0000) <0>
+10:25:45:801 [PGWebLib.c] PW_iAddParam(0x15, BBIFOOD) <0>
+10:25:45:816 [PGWebLib.c] PW_iAddParam(0x16, 3.0) <0>
+10:25:45:816 [PGWebLib.c] PW_iAddParam(0x17, BITBYTE INFORMATICA) <0>
+10:25:45:816 [PGWebLib.c] PW_iAddParam(0x24, 412) <0>
+10:25:45:816 [PGWebLib.c] PW_iAddParam(0xF3, ACBrTEFPGWebAPI 1.0.1) <0>
+10:25:45:832 [PGWebLib.c] PW_iAddParam(0x7F50, 2) <0>
+10:25:45:832 [PGWebLib.c] PW_iExecTransac(0004.0001.0004.0000)
+10:25:45:832 [PGWebLib.c] PW_iExecTransac <0>
+10:25:45:832 0x02=252
+10:25:45:832 0x11=71225
+10:25:45:832 0x1B=esba-hom01.tpgweb.io:17500
+10:25:45:832 0x42=0004.0001.0004.0000
+10:25:45:832 0x43=0
+10:25:45:832 0x6C=0
+10:25:45:832 0x6F=   PROCESSANDO...
+10:25:45:832 0x7F01=1
+10:25:45:832 0x7F02=09
+10:25:45:832 0x7F04=210730175012
+10:25:45:832 0x7F0B=0
+10:25:45:832 0x7F21=0004.0001.0004.0000
+10:25:45:832 0x7F4E=SO:Win 7  SP1, 32bits
+10:25:45:926 CONNECT ====================================================================
+10:25:45:926 STATUS: CONNECTING
+10:25:45:926 Resolvendo o host (esba-hom01.tpgweb.io)
+10:25:45:926 Conectando com o host (esba-hom01.tpgweb.io), IP (3.220.198.210:17500)
+10:25:45:957 CAFile = D:\Projetos\ProjetosNovos\trunk\Tef_Dedicado\TEF\PGWeb\Data\certificado.crt
+10:25:46:316 depth=1 /C=BR/ST=SAO PAULO/L=SAO PAULO/O=SETIS AUTOMACAO E SISTEMAS LTDA/OU=DESENVOLVIMENTO/CN=SETIS CA TEST/emailAddress=contato@setis.com.br
+10:25:46:316 verify return:1
+10:25:46:316 depth=0 /C=BR/ST=Sao Paulo/O=PayGo/CN=*.tpgweb.io/emailAddress=infra@paygo.com.br
+10:25:46:316 verify return:1
+10:25:46:487 Certificado auto-assinado
+10:25:46:487 Nome do Subject: /C=BR/ST=Sao Paulo/O=PayGo/CN=*.tpgweb.io/emailAddress=infra@paygo.com.br
+10:25:46:487 Nome do emissor: /C=BR/ST=SAO PAULO/L=SAO PAULO/O=SETIS AUTOMACAO E SISTEMAS LTDA/OU=DESENVOLVIMENTO/CN=SETIS CA TEST/emailAddress=contato@setis.com.br
+10:25:46:487 TLSv1.2 connect OK <NEW SESSION>!
+10:25:46:503 STATUS: CONNECTED
+10:25:46:565 [PGWebLib] PP_Treatment Selecionado: [0x41]
+10:25:46:596 TX[000018]: 02 24 00 01 18 00 00 00 00 00 00 1B 1A 65 73 62 .$...........esb
+                         61 2D                                           a-              
+10:25:46:768 select = 1
+10:25:46:768 RX[000001]: 02                                              .               
+10:25:46:768 RX[000001]: 02 24 00 00 7C 00 00 C4 C5 DF D1 01 04 00 00 00 .$..|...........
+                         07 02 01 80 11 05 37 31 32 32 35 12 05 45 09 82 ......71225..E..
+                         32 1F 32 03 59 31 86 41 04 00 00 00 70 42 2A 0D 2.2.Y1.A....pB*.
+                         45 52 52 4F 20 44 45 20 41 55 54 45 4E 54 49 43 ERRO DE AUTENTIC
+                         41 43 41 4F 0D 44 4F 20 50 4F 4E 54 4F 20 44 45 ACAO.DO PONTO DE
+                         20 43 41 50 54 55 52 41 20 03 14 AC 34 DA A8 57  CAPTURA ...4..W
+                         49 9B F5 BE 01 38 FF E4 B8 94 E4 45 83 8B 4B 6A I....8.....E..Kj
+                         07 20 21 08 16 10 25 46 6B 07 20 21 08 16 13 25 . !...%Fk. !...%
+10:25:46:784 DISCONNECT =================================================================
+10:25:46:784 [PGWebLib.c] PW_iIdleProc <0>
+10:26:02:705 CONNECT ====================================================================
+10:26:02:705 Resolvendo o host (esba-hom01.tpgweb.io)
+10:26:02:767 [PGWebLib] PP_Treatment Selecionado: [0x41]
+10:26:02:767 [PGWebLib.c] PW_iNewTransac(0x21, 0004.0001.0004.0000) <0>
+10:26:02:767 [PGWebLib.c] PW_iAddParam(0x15, BBIFOOD) <0>
+10:26:02:767 [PGWebLib.c] PW_iAddParam(0x16, 3.0) <0>
+10:26:02:767 [PGWebLib.c] PW_iAddParam(0x17, BITBYTE INFORMATICA) <0>
+10:26:02:783 [PGWebLib.c] PW_iAddParam(0x24, 412) <0>
+10:26:02:783 [PGWebLib.c] PW_iAddParam(0xF3, ACBrTEFPGWebAPI 1.0.1) <0>
+10:26:02:783 [PGWebLib.c] PW_iAddParam(0x7F50, 2) <0>
+10:26:02:783 [PGWebLib.c] PW_iAddParam(0x29, 02) <0>
+10:26:02:799 [PGWebLib.c] PW_iAddParam(0x3B, 01) <0>
+10:26:02:799 [PGWebLib.c] PW_iAddParam(0x27, 2) <0>
+10:26:02:799 [PGWebLib.c] PW_iAddParam(0x25, 1500) <0>
+10:26:02:799 [PGWebLib.c] PW_iAddParam(0x26, 986) <0>
+10:26:02:814 [PGWebLib.c] PW_iExecTransac(0004.0001.0004.0000)
+10:26:02:814 STATUS: CONNECTING
+10:26:02:814 [PGWebLib.c] PW_iAddParam(0x70, 737) <0>
+10:26:02:814 [PGWebLib.c] PW_iExecTransac [0][1:0x36]
+10:26:02:970 Conectando com o host (esba-hom01.tpgweb.io), IP (3.220.198.210:17500)
+10:26:02:970 CAFile = D:\Projetos\ProjetosNovos\trunk\Tef_Dedicado\TEF\PGWeb\Data\certificado.crt
+10:26:03:313 Certificado auto-assinado
+10:26:03:313 Nome do Subject: /C=BR/ST=Sao Paulo/O=PayGo/CN=*.tpgweb.io/emailAddress=infra@paygo.com.br
+10:26:03:313 Nome do emissor: /C=BR/ST=SAO PAULO/L=SAO PAULO/O=SETIS AUTOMACAO E SISTEMAS LTDA/OU=DESENVOLVIMENTO/CN=SETIS CA TEST/emailAddress=contato@setis.com.br
+10:26:03:313 TLSv1.2 connect OK <REUSED SESSION>!
+10:26:04:109 [PGWebLib.c] PW_iAddParam(0x36, 1481) <0>
+10:26:04:109 [PGWebLib.c] PW_iExecTransac(0004.0001.0004.0000)
+10:26:04:109 STATUS: CONNECTED
+10:26:04:125 [PGWebLib.c] PW_iAddParam(0x35, DEMO) <0>
+10:26:04:125 [PGWebLib.c] PW_iAddParam(0x87, DEMO) <0>
+10:26:04:405 [PWOFF_iExecProcOff]=<-2497>, ModoEntradaCartao
+10:26:04:405 [PGWebLib.c] PW_iExecTransac [0][3:0x00]
+10:26:04:405 [PGWebLib.c] PW_iPPGetCard(0) <0>
+10:26:04:437 [PGWebLib.c]PW_iPPEventLoop(): PWRET_DISPLAY(  AGUARDE O CARTAO)
+10:26:14:940 [PGWebLib.c]PW_iPPEventLoop(): PWRET_DISPLAY(  SELECIONADO:      Debit           )
+10:26:16:001 [PW_PinPad.c] AID <A0000000043060>
+10:26:16:360 [PGWebLib.c]PW_iPPEventLoop(): PWRET_OK
+10:26:16:360 [PGWebLib.c] PW_iExecTransac(0004.0001.0004.0000)
+10:26:16:360 [PWOFF_iExecProcOff]=<-2497>, ResOffline
+10:26:16:360 [PGWebLib.c] PW_iExecTransac [0][9:0x00]
+10:26:16:360 [PGWebLib.c] PW_iPPGoOnChip(0) <0>
+10:26:16:718 [PGWebLib.c]PW_iPPEventLoop(): PWRET_DISPLAY(  AGUARDE A SENHA                   )
+10:26:20:680 [PGWebLib.c]PW_iPPEventLoop(): PWRET_OK
+10:26:20:680 [PGWebLib.c] PW_iExecTransac(0004.0001.0004.0000)
+10:26:20:680 [PWOFF_iExecProcOff]=PWRET_OK <8><8><62><A0000000043060>
+10:26:20:821 TX[000018]: 02 24 00 02 EB 00 00 00 00 00 00 01 02 00 07 34 .$.............4
+                         01 02                                           ..              
+10:26:21:335 select = 1
+10:26:21:335 RX[000001]: 02                                              .               
+10:26:21:335 RX[000001]: 02 24 00 00 99 00 00 FC C9 EA DC 01 04 00 00 00 .$..............
+                         07 02 01 A1 11 05 37 31 32 32 35 12 05 45 09 82 ......71225..E..
+                         32 1F 25 02 15 00 29 04 00 00 00 02 32 03 59 31 2.%...).....2.Y1
+                         87 41 04 00 00 00 70 42 2A 0D 45 52 52 4F 20 44 .A....pB*.ERRO D
+                         45 20 41 55 54 45 4E 54 49 43 41 43 41 4F 0D 44 E AUTENTICACAO.D
+                         4F 20 50 4F 4E 54 4F 20 44 45 20 43 41 50 54 55 O PONTO DE CAPTU
+                         52 41 20 43 04 00 00 00 02 03 14 AC 34 DA A8 57 RA C........4..W
+                         49 9B F5 BE 01 38 FF E4 B8 94 E4 45 83 8B 4B 3B I....8.....E..K;
+                         04 00 00 00 01 6A 07 20 21 08 16 10 26 20 6B 07 .....j. !...& k.
+                         20 21 08 16 13 26 20 6C 01 00 F4 01 00 BF 90 04  !...& l........
+10:26:21:367 [PW_Server.c] Unique ID <5795804>
+10:26:21:367 [PW_Util2.c] PWUTL_ClearDisplayTags - 0x7F17
+10:26:21:367 [PW_Util2.c] PWUTL_ClearDisplayTags - 0x7F18
+10:26:21:367 [PW_Util2.c] PWUTL_ClearDisplayTags - 0x7F19
+10:26:21:367 [PW_Util2.c] PWUTL_ClearDisplayTags - 0x7F1A
+10:26:21:367 [PW_Util2.c] PWUTL_ClearDisplayTags - 0x7F1B
+10:26:21:460 [PGWebLib] PP_Treatment Selecionado: [0x41]
+10:26:21:460 TX[000018]: 02 24 00 01 18 00 00 00 00 00 00 1B 1A 65 73 62 .$...........esb
+                         61 2D                                           a-              
+10:26:21:725 select = 1
+10:26:21:725 RX[000001]: 02                                              .               
+10:26:21:725 RX[000001]: 02 24 00 00 89 00 00 83 9B D3 A2 01 04 00 00 00 .$..............
+                         07 02 01 82 11 05 37 31 32 32 35 12 05 45 09 82 ......71225..E..
+                         32 1F 32 03 59 31 88 41 04 00 00 00 70 42 2A 0D 2.2.Y1.A....pB*.
+                         45 52 52 4F 20 44 45 20 41 55 54 45 4E 54 49 43 ERRO DE AUTENTIC
+                         41 43 41 4F 0D 44 4F 20 50 4F 4E 54 4F 20 44 45 ACAO.DO PONTO DE
+                         20 43 41 50 54 55 52 41 20 43 04 00 00 00 02 03  CAPTURA C......
+                         14 AC 34 DA A8 57 49 9B F5 BE 01 38 FF E4 B8 94 ..4..WI....8....
+                         E4 45 83 8B 4B 6A 07 20 21 08 16 10 26 21 6B 07 .E..Kj. !...&!k.
+                         20 21 08 16 13 26 21 6C 01 00 F4 01 00 BF 90 04  !...&!l........
+10:26:21:725 DISCONNECT =================================================================
+10:26:21:741 [PGWebLib.c] PW_iExecTransac [0][13:0x00]
+10:26:21:757 [PGWebLib.c] PW_iPPRemoveCard() <0>
+10:26:22:100 [PGWebLib.c]PW_iPPEventLoop(): PWRET_DISPLAY(ERRO DE AUTENTICACAODO PONTO DE CAPTURA )
+10:26:24:081 [PGWebLib.c]PW_iPPEventLoop(): PWRET_DISPLAY(  RETIRE O CARTAO                   )
+10:26:25:735 [PGWebLib.c]PW_iPPEventLoop(): PWRET_OK
+10:26:25:735 [PGWebLib.c] PW_iExecTransac(0004.0001.0004.0000)
+10:26:25:735 [PGWebLib.c] PW_iExecTransac <-2598>
+10:26:25:735 0x02=33
+10:26:25:735 0x11=71225
+10:26:25:735 0x1B=esba-hom01.tpgweb.io:17500
+10:26:25:735 0x25=000000001500
+10:26:25:735 0x29=2
+10:26:25:735 0x31=20210816102620
+10:26:25:735 0x32=0000593187
+10:26:25:735 0x35=DEMO
+10:26:25:735 0x36=1481
+10:26:25:735 0x3B=1
+10:26:25:735 0x42=ERRO DE AUTENTICACAODO PONTO DE CAPTURA 
+10:26:25:735 0x43=0
+10:26:25:735 0x6C=0
+10:26:25:735 0x6F=   PROCESSANDO...
+10:26:25:735 0x87=DEMO
+10:26:25:735 0xC0=4
+10:26:25:735 0xC2=0326
+10:26:25:735 0x7F01=1
+10:26:25:735 0x7F02=09
+10:26:25:735 0x7F04=210816112621
+10:26:25:735 0x7F0B=0
+10:26:25:735 0x7F16=112
+10:26:25:735 0x7F21=0004.0001.0004.0000
+10:26:25:735 0x7F4E=SO:Win 7  SP1, 32bits
+10:26:29:801 [PGWebLib.c] PW_iPPDisplay() <0>
+10:26:29:910 [PGWebLib.c] PW_iIdleProc <-2494>
+10:45:26:901 [PGWebLib.c] PW_Init(): Ultima limpeza: 16/08/2021 10:25:45)
+10:45:30:613 [PGWebLib.c] PW_Init(D:\Projetos\ProjetosNovos\trunk\Tef_Dedicado\TEF\PGWeb) <0>
+10:45:31:378 [PGWebLib] PP_Treatment Selecionado: [0x41]
+10:45:31:378 [PGWebLib.c] PW_iNewTransac(0xFC, 0004.0001.0004.0000) <0>
+10:45:31:378 [PGWebLib.c] PW_iAddParam(0x15, BBIFOOD) <0>
+10:45:31:378 [PGWebLib.c] PW_iAddParam(0x16, 3.0) <0>
+10:45:31:378 [PGWebLib.c] PW_iAddParam(0x17, BITBYTE INFORMATICA) <0>
+10:45:31:393 [PGWebLib.c] PW_iAddParam(0x24, 412) <0>
+10:45:31:393 [PGWebLib.c] PW_iAddParam(0xF3, ACBrTEFPGWebAPI 1.0.1) <0>
+10:45:31:393 [PGWebLib.c] PW_iAddParam(0x7F50, 2) <0>
+10:45:31:409 [PGWebLib.c] PW_iExecTransac(0004.0001.0004.0000)
+10:45:31:409 [PGWebLib.c] PW_iExecTransac <0>
+10:45:31:409 0x02=252
+10:45:31:409 0x11=71225
+10:45:31:409 0x1B=esba-hom01.tpgweb.io:17500
+10:45:31:409 0x42=0004.0001.0004.0000
+10:45:31:409 0x43=0
+10:45:31:409 0x6C=0
+10:45:31:409 0x6F=   PROCESSANDO...
+10:45:31:409 0x7F01=1
+10:45:31:409 0x7F02=09
+10:45:31:409 0x7F04=210816112621
+10:45:31:409 0x7F0B=0
+10:45:31:409 0x7F21=0004.0001.0004.0000
+10:45:31:409 0x7F4E=SO:Win 7  SP1, 32bits
+10:45:31:503 CONNECT ====================================================================
+10:45:31:503 Resolvendo o host (esba-hom01.tpgweb.io)
+10:45:31:503 Conectando com o host (esba-hom01.tpgweb.io), IP (3.220.198.210:17500)
+10:45:31:534 CAFile = D:\Projetos\ProjetosNovos\trunk\Tef_Dedicado\TEF\PGWeb\Data\certificado.crt
+10:45:31:565 [PGWebLib] PP_Treatment Selecionado: [0x41]
+10:45:31:565 [PGWebLib.c] PW_iNewTransac(0x00, 0004.0001.0004.0000) <0>
+10:45:31:565 [PGWebLib.c] PW_iAddParam(0x15, BBIFOOD) <0>
+10:45:31:565 [PGWebLib.c] PW_iAddParam(0x16, 3.0) <0>
+10:45:31:565 [PGWebLib.c] PW_iAddParam(0x17, BITBYTE INFORMATICA) <0>
+10:45:31:581 [PGWebLib.c] PW_iAddParam(0x24, 412) <0>
+10:45:31:581 [PGWebLib.c] PW_iAddParam(0xF3, ACBrTEFPGWebAPI 1.0.1) <0>
+10:45:31:581 [PGWebLib.c] PW_iAddParam(0x7F50, 2) <0>
+10:45:31:596 [PGWebLib.c] PW_iExecTransac(0004.0001.0004.0000)
+10:45:31:596 STATUS: CONNECTING
+10:45:31:846 depth=1 /C=BR/ST=SAO PAULO/L=SAO PAULO/O=SETIS AUTOMACAO E SISTEMAS LTDA/OU=DESENVOLVIMENTO/CN=SETIS CA TEST/emailAddress=contato@setis.com.br
+10:45:31:846 verify return:1
+10:45:31:846 depth=0 /C=BR/ST=Sao Paulo/O=PayGo/CN=*.tpgweb.io/emailAddress=infra@paygo.com.br
+10:45:31:846 verify return:1
+10:45:32:002 Certificado auto-assinado
+10:45:32:002 Nome do Subject: /C=BR/ST=Sao Paulo/O=PayGo/CN=*.tpgweb.io/emailAddress=infra@paygo.com.br
+10:45:32:002 Nome do emissor: /C=BR/ST=SAO PAULO/L=SAO PAULO/O=SETIS AUTOMACAO E SISTEMAS LTDA/OU=DESENVOLVIMENTO/CN=SETIS CA TEST/emailAddress=contato@setis.com.br
+10:45:32:002 TLSv1.2 connect OK <NEW SESSION>!
+10:45:32:018 STATUS: CONNECTED
+10:45:32:189 [PGWebLib] PWUTL_iShowCommMessage {stEstab NULL}
+10:45:32:189 TX[000018]: 02 24 00 01 5D 00 00 00 00 00 00 01 02 00 07 34 .$..]..........4
+                         01 02                                           ..              
+10:45:32:345 select = 1
+10:45:32:345 RX[000001]: 02                                              .               
+10:45:32:345 RX[000001]: 02 24 00 00 7C 00 00 FC 8D 7A FE 01 04 00 00 00 .$..|....z......
+                         07 02 01 80 11 05 37 31 32 32 35 12 05 45 09 82 ......71225..E..
+                         32 1F 32 03 59 31 89 41 04 00 00 00 70 42 2A 0D 2.2.Y1.A....pB*.
+                         45 52 52 4F 20 44 45 20 41 55 54 45 4E 54 49 43 ERRO DE AUTENTIC
+                         41 43 41 4F 0D 44 4F 20 50 4F 4E 54 4F 20 44 45 ACAO.DO PONTO DE
+                         20 43 41 50 54 55 52 41 20 03 14 AC 34 DA A8 57  CAPTURA ...4..W
+                         49 9B F5 BE 01 38 FF E4 B8 94 E4 45 83 8B 4B 6A I....8.....E..Kj
+                         07 20 21 08 16 10 45 32 6B 07 20 21 08 16 13 45 . !...E2k. !...E
+10:45:32:376 [PW_Util2.c] PWUTL_ClearDisplayTags - 0x7F17
+10:45:32:376 [PW_Util2.c] PWUTL_ClearDisplayTags - 0x7F18
+10:45:32:376 [PW_Util2.c] PWUTL_ClearDisplayTags - 0x7F19
+10:45:32:376 [PW_Util2.c] PWUTL_ClearDisplayTags - 0x7F1A
+10:45:32:376 [PW_Util2.c] PWUTL_ClearDisplayTags - 0x7F1B
+10:45:32:454 [PGWebLib] PP_Treatment Selecionado: [0x41]
+10:45:32:454 TX[000018]: 02 24 00 01 18 00 00 00 00 00 00 1B 1A 65 73 62 .$...........esb
+                         61 2D                                           a-              
+10:45:32:704 select = 1
+10:45:32:704 RX[000001]: 02                                              .               
+10:45:32:704 RX[000001]: 02 24 00 00 89 00 00 1C D9 80 46 01 04 00 00 00 .$........F.....
+                         07 02 01 82 11 05 37 31 32 32 35 12 05 45 09 82 ......71225..E..
+                         32 1F 32 03 59 31 90 41 04 00 00 00 70 42 2A 0D 2.2.Y1.A....pB*.
+                         45 52 52 4F 20 44 45 20 41 55 54 45 4E 54 49 43 ERRO DE AUTENTIC
+                         41 43 41 4F 0D 44 4F 20 50 4F 4E 54 4F 20 44 45 ACAO.DO PONTO DE
+                         20 43 41 50 54 55 52 41 20 43 04 00 00 00 02 03  CAPTURA C......
+                         14 AC 34 DA A8 57 49 9B F5 BE 01 38 FF E4 B8 94 ..4..WI....8....
+                         E4 45 83 8B 4B 6A 07 20 21 08 16 10 45 32 6B 07 .E..Kj. !...E2k.
+                         20 21 08 16 13 45 32 6C 01 00 F4 01 00 BF 90 04  !...E2l........
+10:45:32:720 DISCONNECT =================================================================
+10:45:32:720 [PGWebLib.c] PW_iExecTransac [0][13:0x00]
+10:45:32:720 [PGWebLib.c] PW_iPPRemoveCard() <0>
+10:45:33:078 [PGWebLib.c]PW_iPPEventLoop(): PWRET_DISPLAY(ERRO DE AUTENTICACAODO PONTO DE CAPTURA )
+10:45:35:091 [PGWebLib.c]PW_iPPEventLoop(): PWRET_OK
+10:45:35:091 [PGWebLib.c] PW_iExecTransac(0004.0001.0004.0000)
+10:45:35:091 [PGWebLib.c] PW_iExecTransac <-2598>
+10:45:35:091 0x11=71225
+10:45:35:091 0x1B=esba-hom01.tpgweb.io:17500
+10:45:35:091 0x31=20210816104532
+10:45:35:091 0x32=0000593189
+10:45:35:091 0x42=ERRO DE AUTENTICACAODO PONTO DE CAPTURA 
+10:45:35:091 0x43=0
+10:45:35:091 0x6C=0
+10:45:35:091 0x6F=   PROCESSANDO...
+10:45:35:091 0x7F01=1
+10:45:35:091 0x7F02=09
+10:45:35:091 0x7F04=210816114532
+10:45:35:091 0x7F0B=0
+10:45:35:091 0x7F16=112
+10:45:35:091 0x7F21=0004.0001.0004.0000
+10:45:35:091 0x7F4E=SO:Win 7  SP1, 32bits
+10:45:36:687 [PGWebLib.c] PW_iPPDisplay(    OPERACAO        CANCELADA   ) <0>
+10:45:36:781 [PGWebLib.c] PW_iIdleProc <-2494>

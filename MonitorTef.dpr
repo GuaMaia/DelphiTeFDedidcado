@@ -1,0 +1,23 @@
+program MonitorTef;
+
+uses
+  Forms,
+  UTefDedicado in 'UBitbyteTefDedicado.pas' {FBitbyteTefDedicado},
+  uVendaClass_Tef in 'uVendaClass_Tef.pas',
+  uExibeMensagem_Tef in 'uExibeMensagem_Tef.pas' {FExibeMensagem_Tef},
+  uMenu_TEF in 'uMenu_TEF.pas' {FMenu_Tef},
+  uObtemCampo_Tef in 'uObtemCampo_Tef.pas' {FObtemCampo_Tef},
+  uConfiguraserial_Tef in 'uConfiguraserial_Tef.pas' {fConfiguraSerial_Tef},
+  uIncluirPagamento_Tef in 'uIncluirPagamento_Tef.pas' {fIncluirPagamento_Tef},
+  UMensagemOperador_Tef in 'UMensagemOperador_Tef.pas' {FMensagemOperador_Tef},
+  UImagemQrCode_Tef in 'UImagemQrCode_Tef.pas' {FImagemQrCode_Tef},
+  UTouch_MultiPagamento_Tef in 'UTouch_MultiPagamento_Tef.pas' {FTouch_MultiPagamento_Tef};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.Title := 'Monitor Tef Dedicado';
+  Application.CreateForm(TFTefDedicado, FTefDedicado);
+  Application.Run;
+end.
